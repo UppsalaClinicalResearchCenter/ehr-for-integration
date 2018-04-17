@@ -8,4 +8,5 @@ Adress till ucr: https://test.ucr.uu.se/external/web/wicket/bookmarkable/se.uu.u
 tomas.snackerstrom@ucr.uu.se
 christian.johansen@ucr.uu.se
 andreas.ekstrom@ucr.uu.se
-
+onur.jadermark@sogeti.com
+niklas.ivarsson@sogeti.com
