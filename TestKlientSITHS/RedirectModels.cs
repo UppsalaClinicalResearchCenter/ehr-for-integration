@@ -34,7 +34,7 @@ namespace TestKlientSITHS
         [JsonProperty("formShortName")]
         public string FormShortName { get; set; }
 
-        [JsonProperty("formData")]
+        [JsonProperty("data")]
         public string FormData { get; set; }
 
         [JsonProperty("showFormOnly")]

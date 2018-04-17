@@ -23,5 +23,6 @@
         <TextBox x:Name="TextboxPatientIdentifier" HorizontalAlignment="Left" Height="22" Margin="77,42,0,0" TextWrapping="Wrap" Text="19121212-1212" VerticalAlignment="Top" Width="133" TextChanged="TextBox_TextChanged"/>
         <TextBlock HorizontalAlignment="Left" Margin="13,43,0,0" TextWrapping="Wrap" Text="Patient:" VerticalAlignment="Top"/>
         <Button Content="Visa endast formuläret" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="200" Click="Form_Only_Button_Click" Height="27"/>
+        <WebBrowser x:Name="QualityRegister" HorizontalAlignment="Left" Height="303" Margin="13,316,0,0" VerticalAlignment="Top" Width="558"/>
     </Grid>
 </Window>

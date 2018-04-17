@@ -69,16 +69,19 @@ namespace TestKlientSITHS
             try
             {
                 //var foundCert = GetUserCertificate();
-                var url = GetUrl(action.ActionType);
-                var requestData = GetRequestData(action);
-                var postData = JsonConvert.SerializeObject(requestData);
-                var data = Encoding.UTF8.GetBytes(postData);
-                var request = GetRequest(url, data, null);
-                var response = (HttpWebResponse) request.GetResponse();
-                var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
-                var result = JsonConvert.DeserializeObject<RedirectResultModel>(responseString);
 
-                OpenChrome(result.Url, data);
+                //var url = GetUrl(action.ActionType);
+                //var requestData = GetRequestData(action);
+                //var postData = JsonConvert.SerializeObject(requestData);
+                //var data = Encoding.UTF8.GetBytes(postData);
+                //var request = GetRequest(url, data, null);
+                //var response = (HttpWebResponse) request.GetResponse();
+                //var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+                //var result = JsonConvert.DeserializeObject<RedirectResultModel>(responseString);
+
+                QualityRegister.Source = new Uri("https://test.ucr.uu.se/external/web/wicket/bookmarkable/se.uu.ucr.lab.externalregistrationexample.registration.ExternalRegistrationPage?2&VISIT_TYPE=NURSE&VASCULAR_DISEASE=true");
+
+                //OpenChrome(result.Url, data);
             }
             catch (WebException e)
             {
@@ -264,6 +267,7 @@ namespace TestKlientSITHS
         public string Text10 { get; set; }
         public string Heltal1 { get; set; }
         public string Decimal1 { get; set; }
+        [JsonProperty("LAST_EKG_DATE")]
         public string Datum1 { get; set; }
         public string Kryssruta1 { get; set; }
     }
