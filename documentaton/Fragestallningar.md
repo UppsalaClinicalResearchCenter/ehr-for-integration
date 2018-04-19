@@ -38,7 +38,7 @@ Då vi endast gör förifyllnad så behövs ingen samordning av releaser (journa
 
 
 ## Tekniska förbättringar på PoC
-* POST istf för GET för att skicka "data" och meta-data till ett register från journalsystem  - [Schema](schema/registration-schema.json)
+* POST istf för GET för att skicka "data" och meta-data till ett register från journalsystem  - [Schema](../schema/registration-schema.json)
 * Ej skapa ärenden vid varje nytt anrop (Inca)
 * PoC på senaste version av plattform (UCR) 
 * Hantera att det redan finns en registrering som ska uppdateras 
