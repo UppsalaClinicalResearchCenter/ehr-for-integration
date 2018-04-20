@@ -44,4 +44,19 @@ Då vi endast gör förifyllnad så behövs ingen samordning av releaser (journa
 * Hantera att det redan finns en registrering som ska uppdateras 
 
   
-  
+## Retrospektiv på dagen
+
+Plus :
+* Bra att ha ett repo med exempelkod att checka ut för RCO
+* Demo av alla olika plattformar
+* Bjudlunch
+* Fysisk möte mellan utvecklare
+
+Delta:
+* Lång startsträcka - till lunch innan något blev konkret
+* Uppslutningen - Stratum borde ha varit med också
+* Annat ställe nästa gång?
+* Inte börja så tidigt som 9 (långt att åka)
+* Lägg in kontaktuppgifter i repo  - DONE
+
+
